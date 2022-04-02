@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.011142">
+<testcase classname="Verifing Facebook Details" name="Verifining Facebook login with valid credentials" time="0.011142">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given User in on Facebook page..............................................undefined
+When User should enter username and password................................undefined
+And User should click login button..........................................undefined
+Then User should verify success msg.........................................undefined
+]]></failure>
+</testcase>
+</testsuite>

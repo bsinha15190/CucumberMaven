@@ -1,0 +1,71 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Verifining Facebook login with valid credentials",
+        "description": "",
+        "id": "verifing-facebook-details;verifining-facebook-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5348110300,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User in on Facebook page",
+            "match": {
+              "location": "StepDfefn.user_in_on_Facebook_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 189388700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User should enter username and password",
+            "match": {
+              "location": "StepDfefn.username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 73149100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should click login button",
+            "match": {
+              "location": "StepDfefn.login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15596517300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should verify success msg",
+            "match": {
+              "location": "StepDfefn.success_msg()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verifing Facebook Details",
+    "description": "",
+    "id": "verifing-facebook-details",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature/Login.feature",
+    "tags": []
+  }
+]
