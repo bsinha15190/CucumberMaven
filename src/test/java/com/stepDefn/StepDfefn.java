@@ -32,6 +32,7 @@ public class StepDfefn {
 		WebElement txtpassWord = driver.findElement(By.id("pass"));
 		txtpassWord.sendKeys("Ranjan");
     	System.out.println("Ranjan");
+    	System.out.println("Ranjan");
 	}
 
 	@When("User should click login button")
